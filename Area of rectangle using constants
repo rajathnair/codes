@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	const wid=20;
+	int len;
+	float area;
+	printf("Width: 20");
+            printf("\nEnter length:");
+
+	scanf("%d",&len);
+	area= len * wid;
+	printf("Area of Circle: %.2f",area);
+	return 0;
+}
